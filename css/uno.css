@@ -1041,11 +1041,12 @@ hr {
 	width: 100%;
 	max-width: none;
 	height: 100%;
-	background: url(../images/cover.jpg) repeat #666666; }
+	background: url(../images/cover.jpg) no-repeat #666666; 
+	background-size: cover;}
 
 .panel-cover--collapsed {
 	width: 40%;
-	max-width: 530px; }
+	max-width: 350px; }
 
 .panel-cover--overlay {
 	display: block;
